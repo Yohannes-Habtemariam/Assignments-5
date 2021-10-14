@@ -1,0 +1,74 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 2rem;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.cake{
+    width: 28%;
+    margin: 0 5rem;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.cake img{
+    border-radius: 3rem;
+}
+
+.ingredients{
+    width: 28%;
+    margin-left: 2rem;
+    display: inline-block;
+    vertical-align: top;
+}
+.ingredients h3{
+    background-color: rgb(130, 197, 180)
+}
+
+.ul1{
+    background-color: lightblue;
+}
+
+.ul2{
+    background-color: hsl(130, 60%, 55%);
+}
+
+.ul3{
+    background-color: orange;
+}
+
+.drizzle{
+    background-color: rgb(33, 131, 63);
+}
+
+
+.method{
+    width: 30%;
+    margin-left: 5rem;
+    margin-right: 2rem;
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+}
+.recipe{
+    margin-left: 5rem;
+    margin: 3rem;
+}
+
+.recipe p a:first-child{
+    text-decoration: none;
+    color: red;
+}
+
+.recipe a:last-child{
+    text-decoration: none;
+    color: rgb(12, 165, 152);
+}
+a:hover{
+    background-color: yellow;
+    font-weight: bold;
+}
